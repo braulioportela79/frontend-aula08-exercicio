@@ -11,7 +11,9 @@ h1 {
 
 .media-picture {
     height: 400px;
-    background: url('/img/lor.jpg') no-repeat top;
+    background-image: url('/img/lor.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .review-score {
@@ -21,6 +23,7 @@ h1 {
 }
 h2 {
     color: steelblue;
+
 }
 
 p {
